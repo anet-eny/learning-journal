@@ -1,3 +1,4 @@
+/* font-face fonts */
 @font-face {
     font-family: 'Source Sans Pro';
     src: url(assets/source-sans-pro.regular.ttf) format('truetype');
@@ -26,10 +27,45 @@ body {
 
 /* header */
 
+header, 
+.left-head,
+.right-head {
+    display: flex;
+}
+
+.left-head,
+.right-head {
+    align-items: center;
+}
+
 header {
-    font-size: 1rem;
+    max-height: 84px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+h1, h2 {
+    margin: 0;
 }
 
 h1 {
+    font-size: 1.375rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding-left: 0.3em;
+}
+
+h2 {
+    font-size: 1.25rem;
+    padding: 0 1em;
+    white-space: nowrap;
+    text-transform: uppercase;
     font-weight: 600;
+}
+
+.logo {
+    max-width: 60%;
+    max-height: 60%;
 }
