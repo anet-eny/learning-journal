@@ -43,7 +43,6 @@ header {
     box-sizing: border-box;
     justify-content: space-between;
     padding: 1em;
-    border: 1px solid black;
 }
 
 h1, h2 {
@@ -68,4 +67,5 @@ h2 {
 .logo {
     max-width: 60%;
     max-height: 60%;
+    padding-left: 1em;
 }
