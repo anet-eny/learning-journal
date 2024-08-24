@@ -69,3 +69,10 @@ h2 {
     max-height: 60%;
     padding-left: 1em;
 }
+
+/* hero post */
+.hero-post {
+    height: 488px;
+    background-image: url(images/pexels-lemonzandtea-1422286.jpg);
+    background-size: cover;
+}
