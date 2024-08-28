@@ -45,7 +45,7 @@ header {
     padding: 1em;
 }
 
-h1, h2 {
+h1, h2, h4 {
     margin: 0;
 }
 
@@ -93,6 +93,47 @@ p.hero-text {
 h3 {
     font-size: 2rem;                             
 }
+
+/* article main section */
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+main img {
+    width: 100%;
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog-post {
+    padding: 1em;
+}
+
+.article-header {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.article-header h2 {
+    color: black;
+    text-shadow: none;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: black;
+}
+
+.article-header p {
+    margin: 0.3em 0;
+}
+
 
 /* media queries */
 @media (min-width: 768px) {
