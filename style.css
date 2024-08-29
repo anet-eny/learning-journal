@@ -66,8 +66,13 @@ main {
 
 /* blog post */
 
+a:hover, a:focus {
+    filter: brightness(0.9);
+}
+
 .blog-post {
     padding: 1em;
+    margin-top: 1.6em;
 }
 
 .article-header {
