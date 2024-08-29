@@ -135,6 +135,14 @@ h4 {
     color: #505050;
 }
 
+.view-more {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1.5em;
+}
+
 /* images */
 
 .logo {
