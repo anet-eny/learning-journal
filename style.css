@@ -81,6 +81,13 @@ a:hover, a:focus {
     padding: 0;
 }
 
+/* footer */
+footer {
+    background-color: #202020;
+    text-align: center;
+    padding: 1.6em;
+}
+
 /* typography */
 
 h1, h2, h4 {
@@ -141,6 +148,20 @@ h4 {
     text-align: center;
     text-decoration: underline;
     padding: 1.5em;
+}
+
+footer p {
+    font-size: 0.75em;
+    line-height: 0.6em;
+}
+
+.p-bold {
+    font-weight: 700;
+    color: #ECECEC;
+}
+
+.p-regular {
+    color: #D7D7D7;
 }
 
 /* images */
