@@ -49,7 +49,7 @@ header {
 main {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 0.2em;
 }
 
 /* hero post */
@@ -72,7 +72,6 @@ a:hover, a:focus {
 
 .blog-post {
     padding: 1em;
-    margin-top: 1.6em;
 }
 
 .article-header {
@@ -147,7 +146,8 @@ h4 {
     font-weight: 700;
     text-align: center;
     text-decoration: underline;
-    padding: 1.5em;
+    padding-bottom: 1.5em;
+    margin: 0;
 }
 
 footer p {
@@ -198,5 +198,8 @@ main img {
     h3,
     p.hero-text {
         max-width: 50vw;
+    }
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
