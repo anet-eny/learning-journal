@@ -201,5 +201,9 @@ main img {
     }
     main {
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 2em;
+    }
+    .view-more {
+        padding-bottom: 2em;
     }
 }
