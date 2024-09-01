@@ -228,11 +228,27 @@ main img,
     p.hero-text {
         max-width: 50vw;
     }
-    main {
+
+    h5 {
+        font-size: 1.5em;
+    }
+    
+    main,
+    .recent-posts {
         grid-template-columns: 1fr 1fr 1fr;
         padding: 2em;
     }
     .view-more {
         padding-bottom: 3em;
+    }
+
+    .post {
+        padding: 3em;
+    }
+    .post h2,
+    .post h3,
+    .post h5,
+    .post p {
+        padding: 0 3rem;
     }
 }
