@@ -126,14 +126,21 @@ a {
     text-decoration: none;
 }
 
-.article-header h2 {
-    color: black;
+.article-header h2,
+.post h2,
+.post h3,
+.post p {
+    color: #151515;
     text-shadow: none;
 }
 
 h4 {
     font-size: 1.5em;
     color: black;
+}
+
+h5 {
+    font-size: 1em;
 }
 
 .article-header p {
