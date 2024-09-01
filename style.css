@@ -53,6 +53,10 @@ main,
     gap: 0.2em;
 }
 
+.recent-posts {
+    padding-bottom: 2em;
+}
+
 /* hero post */
 
 .hero-post {
