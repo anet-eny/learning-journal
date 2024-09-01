@@ -64,6 +64,10 @@ main {
     justify-content: flex-end;
 }
 
+.post {
+    padding: 1em;
+}
+
 /* blog post */
 
 a:hover, a:focus {
@@ -141,6 +145,7 @@ h4 {
 
 h5 {
     font-size: 1em;
+    margin: 1em 0;
 }
 
 .article-header p {
@@ -182,6 +187,11 @@ main img {
     width: 100%;
     margin: 0.5em 0;
     border-radius: 3px;
+}
+
+.post img {
+    width: 100%;
+    margin: 0.5em 0;
 }
 
 /* media queries */
