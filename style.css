@@ -208,12 +208,10 @@ main img,
 }
 
 .img-cropper {
-    max-width: 200px;
-    
+    max-width: 200px;  
 }
 
-.cat-img {
-    
+.cat-img {  
     border-radius: 50%;
 }
 
@@ -272,5 +270,4 @@ main img,
         display: flex;
         align-items: center;
     }
-    
 }
