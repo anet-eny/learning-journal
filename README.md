@@ -1,6 +1,6 @@
 # Learning Journal
 
-This is a simple blog page created to document a journey in learning to code. The focus of this project is on building a responsive web page using foundational web development techniques. This project was developed as part of the Scrimba curriculum. The blog consists of three pages: main site, hero post and about me page.
+This is a simple blog page created to document a journey in learning to code. The focus of this project is on building a responsive web page using foundational web development techniques. The blog consists of three pages: main site, hero post and about me page. This project was developed as part of the Scrimba curriculum. 
 
 ## Key Learnings
 - **Mobile-First Approach**: Designing for mobile devices first and then enhancing for larger screens.
