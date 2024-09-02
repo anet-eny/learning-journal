@@ -76,8 +76,9 @@ main,
 
 /* blog post */
 
-a:hover, a:focus {
+a:hover, a:focus, a:active {
     filter: brightness(0.9);
+    color: #202020;
 }
 
 .blog-post {
